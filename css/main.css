@@ -1,0 +1,314 @@
+:root{
+    --color-text:#6D6D6D;
+    --color-title:#4A7866;
+}
+
+
+
+
+
+
+.background-agendar{
+    width: 85vw;
+    height: 700px;
+    margin: auto;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.background-agendar h1{
+    text-align: end;
+    font: normal 2.5em 'Comfortaa',sans-serif;
+    color: white;
+    width: 300px;
+    line-height: 60px;
+}
+
+.background-agendar span{
+    background-color: #85C2AD;
+    padding: 5px;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    width: 300px;
+}
+
+.background-agendar a{
+    align-self: self-end;
+    justify-self: center;
+    background-color: #85C2AD;
+    font: bold 18px 'Montserrat', sans-serif;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.Servicos{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    border: 10px;
+
+}
+
+.Servicos div{
+    width: 100%;
+    box-shadow: 0px 3px 17px #00000023;
+    border-radius: 10px;
+}
+.Servicos div img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+
+}
+
+.Servicos div h2{
+    color: var(--color-title);
+    font: bold 21px 'Comfortaa',sans-serif;
+    margin: 15px auto 0px auto;
+    width: 90%;
+}
+
+.Servicos div p{
+    font: normal 18px 'Montserrat',sans-serif;
+    line-height: 25px;
+    text-align: left;
+    width: 90%;
+    margin: 15px auto 20px auto;
+    color: var(--color-text);
+}
+
+.sobre{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 100px 0;
+}
+
+.sobre>div{
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre h2{
+    color: var(--color-title);
+    font:bold 24px 'Comfortaa',sans-serif;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.sobre p{
+    font: normal 18px 'Montserrat', sans-serif;
+    color: var(--color-text);
+}
+
+.sobre img{
+    margin-left: -300px;
+}
+
+.sobre a{
+    background-color: #E4AAAC;
+    border-radius: 20px;
+    font: normal 18px 'Montserrat', sans-serif;
+    width: 30%;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.sobreText{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+}
+
+.consultorio{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    margin: 100px 0;
+}
+
+.consultorio img:last-child{
+    margin-right: -300px;
+}
+
+.consultorio h2{
+    color: var(--color-title);
+    font:bold 24px 'Comfortaa',sans-serif;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.consultorio p{
+    font: normal 18px 'Montserrat', sans-serif;
+    color: var(--color-text);
+}
+
+.consultorio span p{
+    font-weight: 600;
+    color: #808183 !important;
+}
+
+address{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+address div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+address a{
+    border-radius: 22px;
+    width: 170px;
+    display: grid;
+    place-items: center;
+}
+
+address a img{
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    width: 50%;
+    z-index: 10;
+    margin: 0 !important;
+}
+
+#waze{
+    background-color: #0BAEDC;
+}
+
+#Maps{
+    background-color: #511294;
+}
+
+
+
+.perguntasFrequentes{
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBebes{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgBebes span{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.imgBebes h3, .ideal p:nth-child(2){
+    font: 500 18px 'Montserrat',sans-serif;
+    line-height: 32px;
+    color: #E4AAAC;
+    text-align: center;
+}
+
+.ideal{
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.ideal p:first-child{
+    font: bold 24px 'Comfortaa',sans-serif;
+    color: #4A7866;
+    width: 600px;
+    text-align: center;
+}
+
+.ideal a{
+    background-color: #E4AAAC;
+    border-radius: 20px;
+    font: normal 18px 'Montserrat', sans-serif;
+    width: 30%;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agendarConsulta{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    margin: 100px 0;
+    gap: 30px;
+    position: relative;
+}
+
+.agendarConsulta img:first-child{
+    margin-left: -300px;
+}
+
+.urso{
+    position: absolute;
+    right: 0;
+    width: 20%;
+}
+.agendarConsulta>div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    gap: 10px;
+    width:350px ;
+}
+
+.agendarConsulta h2{
+    color: var(--color-title);
+    font: bold 21px 'Comfortaa',sans-serif;
+
+}
+
+.agendarConsulta p{
+    font: normal 21px 'Montserrat',sans-serif;
+    color: var(--color-text);
+
+}
+
+.agendarConsulta div p:nth-child(3){
+    font-size: 18px;
+}
+
+.agendarContato{
+    display: flex;
+    justify-content: space-between;
+}
+
+.agendarContato a{
+    background-color: #E4AAAC;
+    border-radius: 20px;
+    font: normal 18px 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    width: 170px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

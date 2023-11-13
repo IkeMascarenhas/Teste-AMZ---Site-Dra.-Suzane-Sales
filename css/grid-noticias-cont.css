@@ -1,0 +1,71 @@
+
+
+
+.noticias-Conteudo h2{
+    color: var(--color-title);
+    font:bold 24px 'Comfortaa',sans-serif;
+    line-height: 24px;
+    text-align: center;
+    align-self: center;
+    grid-area: noticias;
+}
+
+.noticias-Conteudo{
+    height: 650px;
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 0.5fr repeat(2, 1fr) 0.1fr;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+    "noticias noticias noticias noticias"
+    "cuidados brincadeiras emocoes autonomia"
+    "cuidados brincadeiras rotina autonomia"
+    "todas todas todas todas"
+    ;
+}
+
+.noticias-Conteudo a{
+    margin-top: 20px;
+    text-align: center;
+    grid-area: todas;
+    color: #6D6D6D;
+    font: normal 1em 'Montserrat',sans-serif;
+}
+
+.noticias-card{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font: 300 16px 'Montserrat',sans-serif;
+}
+
+.noticias-card strong{
+    font-weight: 600;
+}
+
+.cuidados{
+    grid-area: cuidados;
+}
+
+.brincadeiras{
+    grid-area: brincadeiras;
+}
+
+.emocoes{
+    grid-area: emocoes;
+}
+
+.autonomia{
+    grid-area: autonomia;
+}
+
+.rotina{
+    grid-area: rotina;
+}
+

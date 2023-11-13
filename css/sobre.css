@@ -1,0 +1,181 @@
+.banner-sobre{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-sobre h1{
+    font: normal 2vw 'Comfortaa', sans-serif;
+    color: white;
+    width: 20vw;
+    text-align: end;
+    line-height: 60px;
+}
+
+.banner-sobre span{
+    background-color: #85C2AD;
+    display: block;
+    width: 20vw;
+    text-align: end;
+}
+
+.sobre-A-Doutora{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sobre-A-Doutora h2{
+    margin-top: 5vh;
+    font: bold 24px 'Comfortaa',sans-serif;
+    color: #4A7866;
+    text-align: center;
+}
+
+.sobre-A-Doutora p{
+    font: normal 18px 'Montserrat',sans-serif;
+    color: #6D6D6D;
+    width: 90%;
+    margin: auto;
+}
+
+.falaDoutora{
+    width: 90%;
+    height: 550px;
+    margin: 50px auto;
+    display: flex;
+    gap: 20px;
+    background-color: #FAFAFA;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.falaDoutora img{
+    aspect-ratio: 1/1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.falaDoutora blockquote{
+    width: 90%;
+    padding: 20px;
+}
+
+blockquote{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+blockquote h3{
+    font: bold 21px Comfortaa;
+    color: #C49395;
+}
+
+blockquote{
+    font: normal 1.1vw Montserrat;
+    color: #6D6D6D;
+}
+
+#destaque-citacao{
+    font: bold 21px Comfortaa,sans-serif;
+    letter-spacing: 0px;
+    color: #C49395;
+    margin-bottom: 10px;
+}
+
+.trajetoria{
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "trajetoria trajetoria"
+    "titulos residencia"
+    "experiencia experiencia"
+    ;
+    padding:5vw;
+    padding-top: 0;
+}
+
+.icones-trajetoria{
+    grid-area: trajetoria;
+    place-self: center;
+    
+}
+
+.icones-trajetoria span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+.icones-trajetoria h2{
+    margin-top: 20px;
+    text-align: center;
+    font: bold 1.5vw Comfortaa,sans-serif;
+    color: #4A7866;
+}
+
+.trajetoria-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    
+}
+
+.trajetoria-conteudo h3{
+    font: 600 1.25vw Montserrat;
+    color: #C49395;
+    border-bottom: 1px solid #C49395;
+    width: 250px;
+}
+
+.trajetoria-conteudo ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.trajetoria-conteudo li{
+    font: normal 1vw Montserrat;
+    color: #6D6D6D;
+    list-style-type: disc;
+    list-style-position: inside ;
+}
+
+.titulos{
+    justify-self: center;
+    grid-area: titulos;
+}
+
+.residencia{
+    grid-area: residencia;
+    justify-self:center ;
+}
+
+.experiencia{
+    grid-area: experiencia;
+    align-self: center;
+    justify-self: center;
+}
+
+.experiencia h3{
+    text-align: center;
+    font:  600 1.25vw Montserrat;
+    color: #4A7866;
+    margin-bottom: 10px;
+}
+
+.experiencia ul{
+    text-align: center;
+}

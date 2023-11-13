@@ -1,0 +1,148 @@
+
+
+
+
+header{
+    width: 100vw;
+    background-color: #FBFBFB;
+    padding: 0 7.5vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Doutora{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: flex-start;
+    color: #E4AAAC;
+    padding: 20px 0;
+    gap: 5px;
+}
+
+.Doutora h1{
+    font: bold 3em 'Comfortaa', sans-serif;
+}
+
+.Doutora p{
+    font: 500 1em 'Comfortaa', sans-serif;
+}
+
+header .links{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 50%;
+    align-items: center;
+}
+
+.links a{
+    color: #85C2AD;
+    font: 400 1em 'Montserrat', sans-serif;
+}
+
+footer{
+    padding: 3vw;
+    width: 85vw;
+    margin: 0px auto;
+    background-color: #C49395;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr) 0.1fr;
+    grid-template-areas: 
+    "logo logo logo logo"
+    "menu1 menu2 imgPredio localizacao"
+    "insta insta insta insta"
+    ;
+}
+
+#logoDoutora{
+    grid-area: logo;
+    justify-self: center;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    width: 20vw;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu li a{
+    font: normal normal normal 1vw Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize; 
+}
+
+.menu1{
+    grid-area: menu1;
+}
+
+.menu2{
+    grid-area: menu2;
+
+}
+
+#fotoConsultorio{
+    grid-area: imgPredio;
+}
+
+footer address{
+    grid-area: localizacao;
+}
+
+footer address p{
+    font: normal normal normal 1vw Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+address a{
+    border-radius: 22px;
+    width: 170px;
+    display: grid;
+    place-items: center;
+    background-color: #E4AAAC;
+}
+
+address a img{
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    width: 50%;
+    z-index: 10;
+    margin: 0 !important;
+}
+
+address div{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+address img{
+    width: 10%;
+}
+
+.insta{
+    grid-area: insta;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font: 500 1vw Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    justify-self: center;
+    width: 20%;
+}
+
+.insta img{
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    width: 2.5vw;
+}
