@@ -170,10 +170,12 @@ blockquote{
 }
 
 .experiencia h3{
-    text-align: center;
-    font:  600 1.25vw Montserrat;
+    text-align: left;
+    font:  600 1.2vw Montserrat;
     color: #4A7866;
-    margin-bottom: 10px;
+    margin: 30px auto 10px auto;
+    width: 370px;
+    border-bottom: 1px solid #C49395;
 }
 
 .experiencia ul{

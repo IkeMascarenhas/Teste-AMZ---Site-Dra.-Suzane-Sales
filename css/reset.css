@@ -9,6 +9,7 @@
 }
 
 main{
+  padding-bottom: 50px;
     margin: 0 auto;
     width: 85vw;
     background-color: #fff;

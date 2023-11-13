@@ -1,0 +1,118 @@
+.banner-perguntas{
+    width: 100%;
+    padding: 50px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #85C2AD;
+}
+
+.imgBebes{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.imgBebes span{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.imgBebes h1, .ideal p:nth-child(2){
+    font: 500 18px 'Montserrat',sans-serif;
+    line-height: 32px;
+    color: #fff;
+    text-align: center;
+}
+
+.ideal{
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.ideal p:first-child{
+    font: bold 24px 'Comfortaa',sans-serif;
+    color: #4A7866;
+    width: 600px;
+    text-align: center;
+}
+
+article{
+    width: 85%;
+    z-index: 10;
+    margin: -50px auto 0 auto;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 40px;
+    border-radius: 14px;
+}
+
+article hr{
+    width: 85%;
+    border: 1px solid #646464;
+    
+}
+
+article .respostas{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 25px 0;
+    margin-bottom: 25px;
+}
+
+.respostas span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.respostas img{
+    transition-duration: 0.5s;
+
+}
+
+
+
+.changeColor img{
+    filter: invert(91%) sepia(13%) saturate(867%) hue-rotate(98deg) brightness(83%) contrast(79%);
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+}
+
+.changeColor h2{
+    color: #85C2AD !important;
+}
+
+.respostas span h2{
+    font: 600 1vw Montserrat;
+    color: #6D6D6D;
+    transition-duration: 0.25s;
+}
+
+.respostas p{
+    font: normal 0.9vw Montserrat;
+    color: #6D6D6D;
+}
+
+.respostas p{
+    display: none;
+    transition-duration: 0.5s;
+}
+
+.showAnswer{
+    display: block !important;
+    transition-duration: 0.5s;
+}

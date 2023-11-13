@@ -1,0 +1,96 @@
+.banner-blog{
+    width: 85vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #C49395, #E2B5B7, #E4AAAC);
+    height: 25vw;
+}
+
+.banner-blog h1{
+    font: bold 2.5vw Comfortaa;
+    color: #F1F1F1;
+}
+
+.banner-blog p{
+    font: 500 1vw Montserrat;
+    color: #F1F1F1;
+}
+
+.cards-conteudo{
+    margin: 0 auto;
+    padding: 30px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 50px;
+    
+}
+
+.card{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 24px;
+    height: 550px;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.card h2{
+    width: 90%;
+    margin: 0 auto;
+    font: bold 1.25vw Montserrat;
+    letter-spacing: 0px;
+    color: #7C7C7C;
+}
+
+.card p{
+    font: normal 1.1vw Montserrat;
+    color: #7C7C7C;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card a{
+    text-align: center;
+    width: 90%;
+    font: normal 1vw Montserrat;
+    color: #000000;
+}
+
+.card img{
+    border-radius: 24px 24px 0 0;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 100%;
+}
+
+.pages{
+    width: 30%;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pages a{
+    font: normal normal bold 24px/29px Roboto;
+    color: #C49395;
+}
+
+a.active{
+    background-color: #C49395;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
